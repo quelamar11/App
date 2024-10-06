@@ -1,0 +1,32 @@
+Proprietary License Agreement
+
+[Kew]
+Version [1.0]
+Date: [10/6/24]
+
+1. License Grant
+You, the licensee, are granted a non-transferable, non-exclusive license to use [Kew] (the “Software”) solely for personal use. This license does not allow for commercial use, distribution, or modification of the Software.
+
+2. Ownership
+The Software is owned and copyrighted by [ImpactNation Company]. All rights not expressly granted in this agreement are reserved.
+
+3. Restrictions
+You may not:
+
+	•	Copy, modify, or create derivative works based on the Software.
+	•	Distribute, sell, or lease the Software to any third party.
+	•	Use the Software for any commercial purposes.
+
+4. No Warranty
+The Software is provided “as-is” without warranty of any kind, either express or implied. The owner shall not be liable for any damages resulting from the use of the Software.
+
+5. Termination
+This license is effective until terminated. The owner reserves the right to terminate this agreement if you violate any of its terms.
+
+Validity Clause
+This license shall remain in effect indefinitely until terminated by the owner. The owner reserves the right to revoke this license at any time for any reason.
+
+6. Governing Law
+This agreement shall be governed by and construed in accordance with the laws of all states in which the owner resides.
+
+By using the Software, you agree to abide by the terms of this Proprietary License Agreement.
