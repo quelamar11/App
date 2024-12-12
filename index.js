@@ -1,16 +1,17 @@
-import React from "react";
-import SpeechRecognitionComponent from "../components/SpeechRecognitionComponent";
+import { commandParser } from "../utils/CommandHandler";
 
-export default function Home() {
-  const handleCommand = (transcript) => {
-    console.log("Recognized command:", transcript);
-    // Add logic to map voice commands to app actions here
-  };
+const handleCommand = (transcript) => {
+  const parsedCommand = commandParser(transcript);
+  console.log("Parsed command:", parsedCommand);
 
-  return (
-    <div>
-      <h1>Welcome to Kew's Voice Interaction</h1>
-      <SpeechRecognitionComponent onCommand={handleCommand} />
-    </div>
-  );
-}
+  // Example: Trigger actions based on parsed command
+  if (parsedCommand.action === "openApp") {
+    console.log(`Opening ${parsedCommand.app}`);
+  } else if (parsedCommand.action === "fetchWeather") {
+    console.log("Fetching weather...");
+  } else if (parsedCommand.action === "setReminder") {
+    console.log(`Setting reminder with data: ${parsedCommand.data}`);
+  } else {
+    console.log("Command not recognized.");
+  }
+};
