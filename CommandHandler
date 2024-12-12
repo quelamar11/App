@@ -1,0 +1,13 @@
+export const commandParser = (command) => {
+  const lowerCaseCommand = command.toLowerCase();
+
+  if (lowerCaseCommand.includes("open chrome")) {
+    return { action: "openApp", app: "chrome" };
+  } else if (lowerCaseCommand.includes("show weather")) {
+    return { action: "fetchWeather" };
+  } else if (lowerCaseCommand.includes("set reminder")) {
+    return { action: "setReminder", data: command };
+  }
+
+  return { action: "unknown" };
+};
